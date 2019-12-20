@@ -4,3 +4,8 @@ node_js:
 cache:
   directories:
     - "node_modules"
+deploy:
+  provider: heroku
+  api_key:
+    secure: 92b383f6-4b94-40fa-9b25-e9879d5921aa
+  app: glacial-garden-39575
